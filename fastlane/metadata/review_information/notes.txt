@@ -1,7 +1,7 @@
 Lumora is a single-screen flashlight app.
 
 How to test:
-1. Tap the large power button: the flashlight turns on (free).
+1. Tap the large flashlight button in the center: the flashlight turns on (free).
 2. Tap again: the flashlight turns off. Turning the light off is always free.
 3. Tap again to turn it on: the Lumora Pro subscription screen appears. It can be closed with the X button at any time.
 
