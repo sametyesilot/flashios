@@ -1,0 +1,1 @@
+flashlight,torch,light,flash,led,lamp,bright,night,dark,minimal,theme,simple,instant,beam

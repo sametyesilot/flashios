@@ -1,0 +1,7 @@
+build/
+DerivedData/
+*.xcarchive
+xcuserdata/
+*.xcuserstate
+.DS_Store
+fastlane/report.xml

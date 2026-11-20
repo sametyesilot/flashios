@@ -1,0 +1,1 @@
+taskulamppu,valo,salama,led,lamppu,yö,pimeä,kirkas,minimal,teema,helppo,nopea,valaisin

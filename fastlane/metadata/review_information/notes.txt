@@ -1,0 +1,11 @@
+Lumora is a single-screen flashlight app.
+
+How to test:
+1. Tap the large power button: the flashlight turns on (free).
+2. Tap again: the flashlight turns off. Turning the light off is always free.
+3. Tap again to turn it on: the Lumora Pro subscription screen appears. It can be closed with the X button at any time.
+
+Lumora Pro (monthly auto-renewable subscription) unlocks unlimited flashlight use and 4 additional premium themes (theme dots at the bottom). Restore Purchases, Terms of Use and Privacy Policy are on the subscription screen.
+
+The app collects no data, needs no account and does not request camera permission (it only controls the torch).
+The flashlight requires a device with a rear LED flash (UIRequiredDeviceCapabilities: camera-flash).
