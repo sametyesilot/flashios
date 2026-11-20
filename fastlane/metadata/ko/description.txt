@@ -2,8 +2,6 @@ Lumora는 손전등을 켜는 가장 아름다운 방법입니다.
 
 하나의 화면. 하나의 버튼. 탭하면 켜지고, 다시 탭하면 꺼집니다.
 
-✦ Obsidian · Aurora · Ember · Glacier · Aurum
-
 Lumora Pro로 손전등을 무제한으로 사용하고 프리미엄 테마 5종(Obsidian, Aurora, Ember, Glacier, Aurum)을 모두 이용하세요.
 
 개인정보 보호 우선: 계정 없음, 추적 없음, 데이터 수집 없음.

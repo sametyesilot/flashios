@@ -2,8 +2,6 @@ Lumora 是打开手电筒最美的方式。
 
 一个界面，一个按钮。轻点打开灯光，再点一下关闭。
 
-✦ Obsidian · Aurora · Ember · Glacier · Aurum
-
 Lumora Pro 解锁无限使用手电筒以及全部 5 款高级主题：Obsidian、Aurora、Ember、Glacier 和 Aurum。
 
 隐私优先：无需账户，无追踪，不收集任何数据。

@@ -113,7 +113,7 @@ for loc, key in LOCALES.items():
     name, sub, kw, d1, d2, d3, d4, d5, promo = M[key]
     assert len(name) <= 30, (loc, name); assert len(sub) <= 30, (loc, sub, len(sub))
     assert len(kw) <= 100, (loc, len(kw)); assert len(promo) <= 170, loc
-    d = f"{d1}\n\n{d2}\n\n✦ Obsidian · Aurora · Ember · Glacier · Aurum\n\n{d3}\n\n{d4}\n\n{d5}\n\nTerms of Use (EULA): {EULA}\nPrivacy Policy: {PRIV}\n"
+    d = f"{d1}\n\n{d2}\n\n{d3}\n\n{d4}\n\n{d5}\n\nTerms of Use (EULA): {EULA}\nPrivacy Policy: {PRIV}\n"
     os.makedirs(f"{base}/{loc}", exist_ok=True)
     for fn, val in {"name.txt":name,"subtitle.txt":sub,"keywords.txt":kw,"description.txt":d,"promotional_text.txt":promo,"privacy_url.txt":PRIV,"support_url.txt":"https://sametyesilot.github.io/flashios/support.html","marketing_url.txt":""}.items():
         open(f"{base}/{loc}/{fn}","w").write(val)

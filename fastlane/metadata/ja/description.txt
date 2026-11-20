@@ -2,8 +2,6 @@ Lumoraは、ライトをつけるいちばん美しい方法です。
 
 画面はひとつ。ボタンもひとつ。タップで点灯、もう一度タップで消灯。
 
-✦ Obsidian · Aurora · Ember · Glacier · Aurum
-
 Lumora Proでライトを無制限に使用でき、5つのプレミアムテーマ（Obsidian、Aurora、Ember、Glacier、Aurum）がすべて使えます。
 
 プライバシー第一：アカウント不要、トラッキングなし、データ収集なし。

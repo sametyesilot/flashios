@@ -2,8 +2,6 @@ Lumora on kaunein tapa sytyttää taskulamppu.
 
 Yksi näkymä. Yksi painike. Napauta sytyttääksesi valon ja napauta uudelleen sammuttaaksesi sen.
 
-✦ Obsidian · Aurora · Ember · Glacier · Aurum
-
 Lumora Pro avaa rajattoman taskulampun käytön ja kaikki 5 premium-teemaa: Obsidian, Aurora, Ember, Glacier ja Aurum.
 
 Yksityisyys ensin: ei tiliä, ei seurantaa, ei tietojen keräämistä.
