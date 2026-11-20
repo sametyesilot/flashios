@@ -57,16 +57,15 @@ Haptic: her açma ve kapamada orta şiddette titreşim. Animasyonlar: yay (sprin
 1. https://developer.apple.com/programs/ adresinden kaydol (99 $/yıl). Onay genelde 1–2 gün sürer.
 2. App Store Connect'te **Anlaşmalar, Vergi ve Bankacılık** bölümünden **Ücretli Uygulamalar** sözleşmesini imzala, banka ve vergi bilgilerini gir. **Bu adım tamamlanmadan abonelik çalışmaz.**
 
-### 3.2 Bundle ID ve imzalama
-1. `Lumora.xcodeproj` dosyasını aç, **Lumora target → Signing & Capabilities** bölümüne git.
-2. **Team** olarak kendi hesabını seç.
-3. Bundle ID `com.lumora.flashlight` başkası tarafından alınmışsa kendine göre değiştir (ör. `com.seninadin.lumora`). Değiştirirsen `AppConfig.proMonthlyID` ve `Lumora.storekit` içindeki Product ID'yi de aynı önekle güncelle.
-4. **In-App Purchase** capability'sini ekle (+ Capability → In-App Purchase).
+### 3.2 Bundle ID ve imzalama ✅ (yapıldı)
+- Team `KVT7JK9UBR` projeye bağlandı, imzalı Archive başarıyla alındı.
+- Bundle ID `com.lumora.flashlight`. **developer.apple.com → Certificates, IDs & Profiles → Identifiers → +** bölümünden bu ID'yi kaydet (App IDs → App → Explicit). "Already taken" hatası alırsan bana söyle, ID'yi birlikte değiştirelim.
+- In-App Purchase özelliği App ID'lerde varsayılan olarak açık gelir.
 
-### 3.3 Gizlilik linki
-1. GitHub'da `lumora-app.github.io` adında (veya istediğin isimde) bir repo aç, `docs/privacy.html` ve `docs/support.html` dosyalarını yükle, GitHub Pages'i aç.
-2. Ortaya çıkan linkleri `AppConfig.privacyURL` ve `fastlane/metadata/*/privacy_url.txt` dosyalarına yaz.
-3. HTML dosyalarındaki `support@example.com` adresini kendi e-postanla değiştir.
+### 3.3 Gizlilik linki ✅ (yayında)
+- Gizlilik: https://sametyesilot.github.io/flashios/privacy.html
+- Destek: https://sametyesilot.github.io/flashios/support.html
+- Kod: https://github.com/sametyesilot/flashios (Pages, `docs/` klasöründen yayınlanıyor)
 
 ### 3.4 App Store Connect'te uygulama
 1. **Uygulamalar → + → Yeni Uygulama**: Platform iOS, Ad "Lumora: Flashlight" (alınmışsa "Lumora – Flashlight Pro" gibi bir varyasyon dene), birincil dil English (U.S.), Bundle ID, SKU `lumora001`.
@@ -98,9 +97,12 @@ Haptic: her açma ve kapamada orta şiddette titreşim. Animasyonlar: yay (sprin
   (İlk çalıştırmada Apple ID ile giriş ister.)
 - İngilizce ve Türkçe dışındaki diller İngilizce ekran görüntülerini kullanır; bu Apple'da serbesttir.
 
-### 3.7 Build gönderme
-1. Xcode'da cihaz olarak **Any iOS Device (arm64)** seç.
-2. **Product → Archive**, ardından **Distribute App → App Store Connect → Upload**.
+### 3.7 Build gönderme (Xcode)
+Archive hazır, Xcode'da **Window → Organizer → Archives** altında "Lumora 1.0.0 (1)" olarak duruyor.
+1. Organizer'da Lumora'yı seç, **Distribute App** butonuna bas.
+2. **App Store Connect** seçeneğini seç, ardından **Distribute** (Xcode imzalamayı ve profili otomatik halleder).
+   - Yeniden archive almak istersen: üstten cihaz olarak **Any iOS Device (arm64)** seç, sonra **Product → Archive**.
+   - Her yeni yüklemede **Build** numarasını artır (target → General → Build: 2, 3…).
 3. 10–30 dakika içinde build App Store Connect'te görünür. Sürüm sayfasında onu seç.
 4. **App Review Information** alanına `fastlane/metadata/review_information/notes.txt` içeriğini yapıştır. Demo hesap gerekmez.
 5. **Submit for Review**.
